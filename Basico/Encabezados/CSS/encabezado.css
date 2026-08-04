@@ -50,14 +50,14 @@
 
     /*TAMAÑO*/
     width: 560px;    
-    height: 100px;
+    height: 400px;
 
     /*ESPACIADO*/
     margin:10px;
     
     /*FONDO*/
-    background-color: rgb(19, 20, 19);
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCZEI5wcQWJLa8es9xDi79s3OamY2ydNVMs0hsVRKdzQ&s");
+    background-color: rgb(251, 252, 251);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdpxNg58A3XCA_9eAuaSjkeJ8STeTMu35yTaRXjgMcSgEafs5IDGNLu67C&s=10");
     background-repeat: no-repeat ;
     background-size: 90%;
     background-position: center;
@@ -78,5 +78,8 @@
     .palabra{
         padding: 30px;
         text-align: center;
+        position: relative;
+        top: 40%;
         color: rgb(251, 249, 249);
+        font-style: italic;
     }
