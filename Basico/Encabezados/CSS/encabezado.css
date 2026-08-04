@@ -1,0 +1,82 @@
+.cuerpo{
+    /*TAMAÑO*/
+    /*ESPACIADO*/
+    /*BORDES*/
+    /*FONDO*/
+    /*TEXTO*/
+    /*EFECTOS*/
+    /*ADICIONALES*/
+    /*DISPLAY*/
+    
+    /*width: 50px;*/
+
+    font-size: 16px;
+    margin: 10px;
+    background-color: rgb(6, 6, 6);
+    padding: 5px;
+}
+
+.tarjeta{
+    /*TAMAÑO*/
+    width: 600px;    
+    height: 1600px;
+    /*width: 20vw;    
+    height: 20vh;*/
+
+    /*ESPACIADO*/
+    padding: 10px;
+    margin:auto;
+    box-sizing: border-box;
+    /*margin-top: 10vh;
+    margin-left: 20vh;*/
+
+    /*BORDES*/
+    border: 5px solid rgb(119, 109, 109);
+    border-left:5px solid black;
+    border-radius: 20px;
+
+    /*TEXTO*/
+    color: black;  
+    text-align: justify;
+    
+    /*FONDO*/
+    background-color: aliceblue;
+    
+}
+.imagen{
+
+    /*FONDO*/
+    background-attachment:fixed;
+
+    /*TAMAÑO*/
+    width: 560px;    
+    height: 100px;
+
+    /*ESPACIADO*/
+    margin:10px;
+    
+    /*FONDO*/
+    background-color: rgb(19, 20, 19);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCZEI5wcQWJLa8es9xDi79s3OamY2ydNVMs0hsVRKdzQ&s");
+    background-repeat: no-repeat ;
+    background-size: 90%;
+    background-position: center;
+
+    /*ADICIONALES*/
+    /*background-size: contain;*/
+    /*background-size: cover;*/
+    /*background-position: 10px 25px;*/
+    /*background-color: transparent;*/
+    }
+
+.opaco{
+    height:100%;
+    width: 100%;  
+    background-color: rgba(58, 33, 139, 0.441)
+    }
+
+    .palabra{
+        padding: 30px;
+        text-align: center;
+        color: rgb(251, 249, 249);
+    }
