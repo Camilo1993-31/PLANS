@@ -14,38 +14,72 @@
 </head>
 <body class="fondo">
     <div class="cuerpo">
-    <h2><span class="parte1">DESTINOS </span> <span class="parte2">TURISTICOS </span> <sapn class="parte3">COLOMBIANOS</sapn></h2>
-    <h3>¿No sabes qué hacer? ¡Empieza por tu ubicación!🌎</h3>
-    <p>
-    Elige entre los diferentes <strong>departamentos</strong>, selecciona el municipio de tu interés y descubre todos los planes que tenemos para ti. Desde eventos y gastronomía hasta entretenimiento y actividades especiales, encontrarás opciones para disfrutar donde quiera que estés.
-    </p>
+        <h2><span class="parte1">DESTINOS </span> <span class="parte2">TURISTICOS </span> <sapn class="parte3">COLOMBIANOS</sapn></h2>
+        <h3>¿No sabes qué hacer? ¡Empieza por tu ubicación!🌎</h3>
+            <p>Elige entre los diferentes <strong>departamentos</strong>, selecciona el municipio de tu interés y descubre todos los planes que tenemos para ti. Desde eventos y gastronomía hasta entretenimiento y actividades especiales, encontrarás opciones para disfrutar donde quiera que estés.</p>
 
-    <ul>
-        <li class="separador"><a href="https://huila.travel/galerias"target="_blank">Antioquia</a></li>
-        <li class="third"><a href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Atlantico</a></li>
-        <li class="third"><a href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Caldas</a></li>
-        <li class="third"><a href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Choco</a></li>
-        <li class="third"><a href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Cundinamarca</a></li>
-        <li class="second"><a href="https://www.gettyimages.es/fotos/antioquia"target="_blank">Huila</a></li>
-        <li class="third"><a href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Nariño</a></li>
-        <li class="third"><a href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Meta</a></li>
-        <li class="third"><a href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Santander</a></li>
-         <li class="separador"><a href="https://www.gettyimages.es/fotos/tolima"target="_blank">tolima</a></li>
-    </ul>
+        <ul class="menu">
+            <div>
+                <li><a class="departamento" href="https://huila.travel/galerias"target="_blank">Antioquia</d></li>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Atlantico</a></li>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Caldas</a></li>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Choco</a></li>
+            </div>
+            <div>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Cundinamarca</a></li>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/antioquia"target="_blank">Huila</a></li>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Nariño</a></li>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Meta</a></li>
+            </div>
+            <div>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/putumayo-river"target="_blank">Santander</a></li>
+                <li><a class="departamento" href="https://www.gettyimages.es/fotos/tolima"target="_blank">tolima</a></li>
+            </div>
+        </ul>
 
-    <div>
-    <img class="imagen" src="/../image/Mapa.png">
-    <img class="colombia" src="https://png.pngtree.com/png-clipart/20230330/original/pngtree-colombia-country-text-and-flag-png-image_9010530.png">
+        <div>
+            <img class="imagen" src="/../image/Mapa.png">
+            <img class="colombia" src="https://png.pngtree.com/png-clipart/20230330/original/pngtree-colombia-country-text-and-flag-png-image_9010530.png">
+        </div>
+        <div class="destinos"> 
+            <form>
+                <label>Buscar
+                    <input list="referente" name="referente">
+                    <datalist id="referente" name="type-of-user">
+                        <option value="none"></option>
+                        <option value="Antioquia">Cultura Paisa</option>
+                        <option value="Atlantico">Sabor Costero</option>
+                        <option value="Caldas">Ferias de Manizales</option>
+                        <option value="Chocó">Naturaleza Pura</option>
+                        <option value="Cundinamarca">Capital Colombiana</option>
+                        <option value="Huila">San Pedro</option>
+                        <option value="Nariño">Carnaval de Blancos y Negros</option>
+                        <option value="Meta">Tierra Llanera</option>
+                        <option value="Santander">Acento Fuerte</option>
+                        <option value="Tolima">Sabor del Tamal</option>
+                    </in>
+                </label>
+            </form> 
+            <form>
+                <label class="label">Destinos Turisticos
+                    <select class="lista" name:"lista">
+                        <option value="none"></option>
+                        <option value="destino1">Antioquia</option>
+                        <option value="destino2">Atlantico</option>
+                        <option value="destino3">Caldas</option>
+                        <option value="destino4">Chocó</option>
+                        <option value="destino5">Cundinamarca</option>
+                        <option value="destino6">Huila</option>
+                        <option value="destino7">Nariño</option>
+                        <option value="destino8">Meta</option>
+                        <option value="destino9">Santander</option>
+                        <option value="destino10">Tolima</option>
+                    </select>
+                </label>
+                <input class="visitar" type="submit" value="Visitar">
+            </form>
+        </div> 
     </div>
-    <div class="destinos">  
-    <h4>destinos</h4>
-    <form>
-        <input class ="buscador"type="text" placeholder="Buscar...">
-        <input class="visitar" type="submit" value="Visitar">
-    </form>
-    </div> 
-    </div>
-    
 
 </body>
 </html>  

@@ -5,14 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactanos</title>
     <link rel="stylesheet" href="../CSS/contacto.css">
+    <link rel="icon" href="/../Image/Colombia.png" type="image/png">
 </head>
 <body class="fondo">
     <form class="cuerpo">
-    <h1 class="encabezado"> Formulario de Contacto</h1>
-    <input type="text" placeholder="Nombre Completo">
-    <input type="email" placeholder="Correo electrónico">
-    <textarea row="10" placeholder="Mensaje"></textarea>
-    <button type="submit">Enviar</button>
+        <h1 class="encabezado"> Formulario de Contacto</h1>
+        <label>Nombre Completo
+            <input type="text" placeholder="Ex: Camilo Montealegre">
+        </label>
+        <label>Correo Electrónico
+            <input type="email" placeholder="Ex: camilo_vanegas@example.com">
+        </label>
+        <label>Mensaje
+            <textarea row="10" placeholder="Dejanos tu mensaje..."></textarea>
+        </label>
+        <button type="submit">Enviar</button>
+        <div class="terminos">
+            <label> Acepto Terminos y Condiciones
+                <input type="checkbox" class="terminos" required>
+            </label>
+        </div>
     </form>
 </body>
 </html>

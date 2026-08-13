@@ -9,26 +9,67 @@
 </head>
 
 <body class="fondo">
-    <form">
-    <div class="cuerpo">
-        <p>Fecha de Ingreso</p>
-        <input type="date" name="fecha_ingreso" required>
-        <p>Ingesa Nombre Completo</p>
-        <input type="text" placeholder="Name..."name="nombre" required>
-        <input type="submit" value="Enviar">
-        <p>Ingres correo electrónico</p>
-        <input type="email" placeholder="Email..."name="email" required>
-        <input type="submit" value="Cargar">
-        <p>Ingres contraseña</p>
-        <input type="password" placeholder="Password..."name="contraseña" required>
-        <input type="submit" value="Verificar">
-        <p>Selecciona una opción</p>
-        <input type="radio" name="opcion">
-        <input type="radio" name ="opcion"> 
-        <input type="file" name="Cargar archivo">
-        <p>Aceptar Terminos y condiciones</p>
-        <input type="checkbox" name="terminos" required>
-        <input type="submit" value="Enviar">
+    <form class="cuerpo">
+        <h2 class="titulo">REGISTRO DE USUARIO</h2>
+        <div class="form_input">
+            <label class=""> Fecha
+                <input type="date" name="fecha_ingreso" required>
+            </label>
+        </div>
+        <fieldset>
+            <legend>Información Basica</legend>
+            <div class="form_input">
+                <label>Nombre 
+                    <input type="text" placeholder="Camilo" required>
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Apellidos 
+                    <input type="text" placeholder="Montealegre" required>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contactos</legend>
+            <div class="form_input">
+                <label>Telefono
+                    <input type="numerico" placeholder="(+57)" required>
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Email
+                    <input type="email" placeholder="camilo@example.com" required>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contraseñas</legend>
+            <div class="form_input">
+                <label>Contraseña
+                    <input type="password" placeholder="********" required> 
+                </label> 
+            </div>
+            <div class="form_input">
+                <label> Verificar Contraseña
+                    <input type="password" placeholder="********" required> 
+                </label> 
+            </div>
+        </fieldset>
+        <div class="ingresar">
+            <input type="submit" value="Ingresar">
+        </div>
+
+        <h2>Información Adicional</h2>
+        <div class="archivo">
+            <label>
+                <input type="file" name="Cargar archivo">
+            </label>
+        </div>
+            <label>Acepto Terminos y Condiciones
+                <input type="checkbox" name="terminos" required>
+            </label>
+        <div class="enviar">
+            <input type="submit" value="Enviar">
         </div>
     </form>
 </body>

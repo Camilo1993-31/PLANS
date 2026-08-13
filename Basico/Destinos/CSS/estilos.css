@@ -12,20 +12,16 @@
     border-radius: 25px;
     box-shadow: 0 0 30px rgb(30, 39, 215);
     
-}
-.separador a {
-    color:rgb(11, 11, 11); 
-    text-decoration: none;  
-}
-.second a{
-    color:rgb(7, 7, 7);
-    text-decoration: none;
-}
-.third a{
-    color:rgb(12, 12, 12);
-    text-decoration: none;
-}
+    }
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding:5px;
     
+}
+
 p {
     font-family: "camilo", serif;
     font-size: 16px;
@@ -57,23 +53,36 @@ h4 {
     margin-left: 10px;
 }
 form{
-    background-color: rgb(48, 48, 229);
-    padding:10px;
-    width: 350px;
-    border-radius: 25px;
-    border:5px solid black
+    background-color: rgb(140, 137, 136);
+    padding:3px;
+    width: 50%;
+    border-radius: 10px;
+    border:1px solid black;
     
 }
 .destinos{
     position:relative;
-    bottom: 110px;
+    bottom: 10px;
+}
+.lista{
+    width: 70%;
+}
+.departamento{
+    text-decoration: none;
 }
 .buscador{
-    width: 230px;
+    width: 70%;
+    margin: 10px;
+    border-radius: 3px;
+}
+.label{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
     margin: 10px;
 }
 .visitar{
     margin: 10px;
+    border-radius: 3px;
     
 }
 .imagen{
