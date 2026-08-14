@@ -53,37 +53,50 @@ h4 {
     margin-left: 10px;
 }
 form{
-    background-color: rgb(140, 137, 136);
+    background-color: rgb(141, 146, 184);
     padding:3px;
     width: 50%;
-    border-radius: 10px;
+    border-radius: 50px;
     border:1px solid black;
-    
+}
+label{
+    margin:10px;
 }
 .destinos{
     position:relative;
-    bottom: 10px;
+    bottom: 10px;    
 }
 .lista{
-    width: 70%;
+    width: 55%;
+}
+.referente{
+    width: 55%;
 }
 .departamento{
     text-decoration: none;
 }
-.buscador{
-    width: 70%;
-    margin: 10px;
-    border-radius: 3px;
-}
-.label{
+
+.formone{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     margin: 10px;
+    position: relative;
+    left: 345px;
+    top: 65px;
 }
+.formtwo{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 10px;
+    position: relative;
+    right: 20px;
+    top:8px;
+    height: 40px;
+    }
 .visitar{
     margin: 10px;
-    border-radius: 3px;
-    
+    margin-left: 0px;
+    border-radius: 3px;    
 }
 .imagen{
     width: 180px;
