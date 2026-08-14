@@ -115,3 +115,24 @@ label{
     top: 80px;
     filter: drop-shadow(0px 0px 5px rgb(241, 7, 7));
 }
+summary{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:5px;
+    padding:5px;
+    
+    
+}
+details[open]{
+    color:rgb(80, 80, 82);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    }
+
+a{
+    color:black;
+    font-style: italic;
+    }
